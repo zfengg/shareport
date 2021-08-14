@@ -27,5 +27,5 @@ def save_cf(x, f, pngDpi=500):
     plot_cf(x).save(f, dpi=pngDpi)
 
 
-tribonacci = solve(x ^ 3 - x ^ 2 - x - 1 == 0, x)[-1].rhs()
-quabonacci = solve(x ^ 4 - x ^ 3 - x ^ 2 - x - 1 == 0, x)[-1].rhs()
+# tribonacci = solve(x ^ 3 - x ^ 2 - x - 1 == 0, x)[-1].rhs()
+# quabonacci = solve(x ^ 4 - x ^ 3 - x ^ 2 - x - 1 == 0, x)[-1].rhs()
